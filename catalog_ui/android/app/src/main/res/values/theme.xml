@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme for IMG.LY editors. -->
+    <style name="CUSTOM_THEME" parent="Theme.Imgly">
+        <item name="imgly_background_color">#121A21</item>
+        <item name="imgly_optionToolBar_background_color">#21272C</item>
+        <item name="imgly_actionBar_background_color">#2F3337</item>
+        <item name="imgly_highlight_color">#3D5CF5</item>
+    </style>
+</resources>

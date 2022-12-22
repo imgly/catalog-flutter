@@ -1,0 +1,171 @@
+{
+    "version": "3.10.0",
+    "image": {
+        "width": 254,
+        "height": 454
+    },
+    "operations": [
+        {
+            "options": {
+                "start": {
+                    "x": 0.080052493438320202,
+                    "y": 0.077092511013215861
+                },
+                "rotation": 6.1728928821644233,
+                "end": {
+                    "x": 0.91994750656167967,
+                    "y": 0.91336270190895752
+                }
+            },
+            "type": "transform"
+        },
+        {
+            "options": {
+                "intensity": 1,
+                "identifier": "imgly_lut_front"
+            },
+            "type": "filter"
+        },
+        {
+            "options": {
+                "temperature": 0,
+                "shadows": 0,
+                "blacks": 0,
+                "saturation": 0,
+                "highlights": 0,
+                "clarity": 0,
+                "contrast": 0,
+                "sharpness": 0,
+                "exposure": 0,
+                "gamma": 0,
+                "brightness": 0,
+                "whites": 0
+            },
+            "type": "adjustments"
+        },
+        {
+            "type": "sprite",
+            "options": {
+                "sprites": [
+                    {
+                        "type": "sticker",
+                        "options": {
+                            "flipVertically": false,
+                            "tintColor": {
+                                "srgba": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "rgba": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "identifier": "imgly_sticker_emoticons_loving",
+                            "dimensions": {
+                                "y": 0.45808803246909963,
+                                "x": 0.47914417287881284
+                            },
+                            "rotation": 0.59138212252871047,
+                            "position": {
+                                "x": 0.71171751188589527,
+                                "y": 0.1721900123647814
+                            },
+                            "adjustments": {
+                                "brightness": 0,
+                                "saturation": 0,
+                                "contrast": 0
+                            },
+                            "alpha": 1,
+                            "flipHorizontally": false,
+                            "tintMode": "none"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "options": {
+                            "maxWidth": 0.80000000000000004,
+                            "rotation": 0,
+                            "color": {
+                                "rgba": [
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "srgba": [
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            },
+                            "flipVertically": false,
+                            "backgroundColor": {
+                                "rgba": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "srgba": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "alignment": "center",
+                            "flipHorizontally": false,
+                            "position": {
+                                "y": 0.91225948193218642,
+                                "x": 0.4992187500000001
+                            },
+                            "text": "Hello from IMG.LY",
+                            "fontSize": 0.084687004754358183,
+                            "fontIdentifier": "imgly_font_open_sans_bold"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "focus",
+            "options": {
+                "type": "radial",
+                "options": {
+                    "blurRadius": 0.029765625000000004,
+                    "start": {
+                        "y": 0.39494604471391553,
+                        "x": 0.42097959705994015
+                    },
+                    "end": {
+                        "x": 0.36889534650935629,
+                        "y": 0.20458826371894015
+                    },
+                    "gradientRadius": 0.11906250000000002
+                }
+            }
+        },
+        {
+            "type": "trim",
+            "options": {}
+        },
+        {
+            "options": {
+                "volumeBalance": 0,
+                "clips": []
+            },
+            "type": "audio"
+        }
+    ],
+    "meta": {
+        "createdAt": "2022-01-21T16:19:54Z",
+        "platform": "ios",
+        "version": "10.28.2"
+    }
+}

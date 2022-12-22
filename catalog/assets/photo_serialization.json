@@ -1,0 +1,172 @@
+{
+    "image": {
+        "height": 4096,
+        "width": 2730
+    },
+    "meta": {
+        "version": "10.28.2",
+        "platform": "ios",
+        "createdAt": "2022-01-21T16:17:44Z"
+    },
+    "version": "3.10.0",
+    "operations": [
+        {
+            "type": "transform",
+            "options": {
+                "rotation": 6.2251366624347639,
+                "start": {
+                    "x": 0.039296998420221163,
+                    "y": 0.035545023696682464
+                },
+                "end": {
+                    "y": 0.95695102685624012,
+                    "x": 0.96070300157977895
+                }
+            }
+        },
+        {
+            "type": "filter",
+            "options": {
+                "intensity": 1,
+                "identifier": "imgly_lut_lenin"
+            }
+        },
+        {
+            "type": "adjustments",
+            "options": {
+                "highlights": 0,
+                "shadows": 0,
+                "whites": 0,
+                "temperature": 0,
+                "saturation": 0,
+                "clarity": 0,
+                "gamma": 0,
+                "blacks": 0,
+                "exposure": 0,
+                "sharpness": 0,
+                "brightness": 0,
+                "contrast": 0
+            }
+        },
+        {
+            "options": {
+                "sprites": [
+                    {
+                        "type": "sticker",
+                        "options": {
+                            "rotation": 0.6798716188348658,
+                            "dimensions": {
+                                "x": 0.29741131020531897,
+                                "y": 0.2844109134954893
+                            },
+                            "identifier": "imgly_sticker_emoticons_loving",
+                            "flipHorizontally": false,
+                            "tintMode": "none",
+                            "adjustments": {
+                                "brightness": 0,
+                                "contrast": 0,
+                                "saturation": 0
+                            },
+                            "position": {
+                                "y": 0.14851099506419549,
+                                "x": 0.74609383657378603
+                            },
+                            "flipVertically": false,
+                            "tintColor": {
+                                "srgba": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "rgba": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "alpha": 1
+                        }
+                    },
+                    {
+                        "options": {
+                            "backgroundColor": {
+                                "srgba": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "rgba": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ]
+                            },
+                            "fontSize": 0.084597250156615775,
+                            "position": {
+                                "y": 0.89489400005092534,
+                                "x": 0.49990121962925776
+                            },
+                            "fontIdentifier": "imgly_font_open_sans_bold",
+                            "color": {
+                                "rgba": [
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "srgba": [
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            },
+                            "flipHorizontally": false,
+                            "text": "Hello from IMG.LY",
+                            "flipVertically": false,
+                            "maxWidth": 0.80000000000000004,
+                            "rotation": 0,
+                            "alignment": "center"
+                        },
+                        "type": "text"
+                    }
+                ]
+            },
+            "type": "sprite"
+        },
+        {
+            "type": "focus",
+            "options": {
+                "type": "mirrored",
+                "options": {
+                    "end": {
+                        "x": 0.23468058550608872,
+                        "y": 0.39472277982496573
+                    },
+                    "size": 0.24238191644871948,
+                    "gradientSize": 0.1085297899699957,
+                    "start": {
+                        "x": 0.47643178873262326,
+                        "y": 0.6747752457051418
+                    },
+                    "blurRadius": 0.027132447492498924
+                }
+            }
+        },
+        {
+            "type": "trim",
+            "options": {}
+        },
+        {
+            "type": "audio",
+            "options": {
+                "clips": [],
+                "volumeBalance": 0
+            }
+        }
+    ]
+}
