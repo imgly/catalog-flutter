@@ -14,11 +14,13 @@ import 'package:catalog/examples/editor/openVideo/open_video_local_path_example.
 import 'package:catalog/examples/editor/openVideo/open_video_remote_url_example.dart';
 import 'package:catalog/examples/editor/restoreState/photo_deserialization_example.dart';
 import 'package:catalog/examples/editor/restoreState/video_deserialization_example.dart';
+import 'package:catalog/examples/editor/restoreState/video_segments_deserialization_example.dart';
 import 'package:catalog/examples/editor/savePhoto/save_photo_base64_example.dart';
 import 'package:catalog/examples/editor/savePhoto/save_photo_camera_example.dart';
 import 'package:catalog/examples/editor/savePhoto/save_photo_local_example.dart';
 import 'package:catalog/examples/editor/savePhoto/save_photo_remote_example.dart';
 import 'package:catalog/examples/editor/saveState/photo_serialization_example.dart';
+import 'package:catalog/examples/editor/saveState/video_segments_serialization_example.dart';
 import 'package:catalog/examples/editor/saveState/video_serialization_example.dart';
 import 'package:catalog/examples/editor/saveVideo/save_video_base64_example.dart';
 import 'package:catalog/examples/editor/saveVideo/save_video_camera_example.dart';
@@ -280,13 +282,21 @@ final examplesVESDK = [
     Example(
         "Serialization",
         "Presents a video editor, serializes all edits and prints the output to the debugging console.",
-        VideoSerializationExample())
+        VideoSerializationExample()),
+    Example(
+        "Serialization Video Segments",
+        "Presents a video editor, serializes all edits including the video segments and prints the output to the debugging console.",
+        VideoSegmentsSerializationExample())
   ]),
   Section("Restoring State", [
     Example(
         "Deserialization",
         "Loads a serialized JSON file from the app bundle and presents a video editor with state restored.",
-        VideoDeserializationExample())
+        VideoDeserializationExample()),
+    Example(
+        "Deserialization Video Segments",
+        "Loads serialized video segments and presents a video editor with state restored.",
+        VideoSegmentsDeserializationExample())
   ]),
   Section("Editor Configuration", [
     Example(

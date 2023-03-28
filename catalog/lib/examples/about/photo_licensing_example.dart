@@ -5,7 +5,7 @@ class PhotoLicensingExample extends CodeExample {
   @override
   void invoke() {
     // <code-example-pesdk-license>
-    PESDK.unlockWithLicense("assets/license");
+    PESDK.unlockWithLicense("assets/pesdk_license");
     // <code-example-pesdk-license>
   }
 }

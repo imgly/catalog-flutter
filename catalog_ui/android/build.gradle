@@ -9,7 +9,7 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:7.1.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath 'ly.img.android.sdk:plugin:10.4.0'
+        classpath 'ly.img.android.sdk:plugin:10.4.1'
     }
 }
 

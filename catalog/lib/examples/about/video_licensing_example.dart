@@ -5,7 +5,7 @@ class VideoLicensingExample extends CodeExample {
   @override
   void invoke() {
     // <code-example-vesdk-license>
-    VESDK.unlockWithLicense("assets/license");
+    VESDK.unlockWithLicense("assets/vesdk_license");
     // <code-example-vesdk-license>
   }
 }
