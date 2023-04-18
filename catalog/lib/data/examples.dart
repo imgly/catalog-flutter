@@ -70,6 +70,8 @@ import 'package:catalog/examples/transform/photo_transform_configuration_example
 import 'package:catalog/examples/transform/video_transform_configuration_example.dart';
 import 'package:catalog/examples/trim/enforceDuration/video_force_trim_example.dart';
 import 'package:catalog/examples/trim/video_trim_configuration_example.dart';
+import 'package:catalog/examples/userInterface/singleTool/photo_single_tool_example.dart';
+import 'package:catalog/examples/userInterface/singleTool/video_single_tool_example.dart';
 import 'package:catalog/examples/videoComposition/video_composition_configuration_example.dart';
 import 'package:catalog/models/example.dart';
 import 'package:catalog/models/section.dart';
@@ -127,7 +129,11 @@ final examplesPESDK = [
     Example(
         "Custom Snapping",
         "Presents a photo editor modally using a custom snapping configuration.",
-        PhotoSnappingConfigurationExample())
+        PhotoSnappingConfigurationExample()),
+    Example(
+        "Single Tool",
+        "Presents a photo editor modally using the single tool mode.",
+        PhotoSingleToolExample())
   ]),
   Section("Transform Configuration", [
     Example(
@@ -302,7 +308,11 @@ final examplesVESDK = [
     Example(
         "Custom Snapping",
         "Presents a video editor modally using a custom snapping configuration.",
-        VideoSnappingConfigurationExample())
+        VideoSnappingConfigurationExample()),
+    Example(
+        "Single Tool",
+        "Presents a video editor modally using the single tool mode.",
+        VideoSingleToolExample())
   ]),
   Section("Video Composition Configuration", [
     Example(
