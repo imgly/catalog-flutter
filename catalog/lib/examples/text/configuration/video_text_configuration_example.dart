@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:catalog/models/code_example.dart';
 import 'package:imgly_sdk/imgly_sdk.dart';
 import 'package:video_editor_sdk/video_editor_sdk.dart';
@@ -32,9 +34,9 @@ class VideoTextConfigurationExample extends CodeExample {
         // e.g. based on favorite colors of the user.
         // highlight-background-color
         backgroundColors: ColorPalette(colors: [
-          NamedColor(Color([0.9, 0.31, 0.31, 1]), "Red"),
-          NamedColor(Color([0.33, 1.0, 0.53, 1]), "Green"),
-          NamedColor(Color([1.0, 0.97, 0.39, 1]), "Yellow")
+          NamedColor(const Color.fromARGB(230, 255, 0, 0), "Red"),
+          NamedColor(const Color.fromARGB(255, 0, 255, 34), "Green"),
+          NamedColor(const Color.fromARGB(255, 238, 255, 0), "Yellow")
         ]),
         // highlight-background-color
 
@@ -44,15 +46,16 @@ class VideoTextConfigurationExample extends CodeExample {
         // e.g. based on favorite colors of the user.
         // highlight-text-color
         textColors: ColorPalette(colors: [
-          NamedColor(Color([0, 0, 0, 1]), "White"),
-          NamedColor(Color([1, 1, 1, 1]), "Black")
+          NamedColor(const Color.fromARGB(255, 255, 255, 255), "White"),
+          NamedColor(const Color.fromARGB(0, 0, 0, 255), "Black"),
         ]),
         // highlight-text-color
 
-        // By default the default text color is set to Color([1, 1, 1, 1]).
+        // By default the default text color is set to
+        // Color.fromRGBA(255, 255, 255, 255).
         // For this example, the default color is set to black.
         // highlight-default-color
-        defaultTextColor: Color([0, 0, 0, 1])
+        defaultTextColor: const Color.fromARGB(0, 0, 0, 255)
         // highlight-default-color
         );
 

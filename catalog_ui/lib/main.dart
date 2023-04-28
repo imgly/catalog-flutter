@@ -1,6 +1,6 @@
 import 'package:catalog_ui/example_item.dart';
 import 'package:flutter/material.dart' hide Theme;
-import 'package:imgly_sdk/imgly_sdk.dart' hide Color;
+import 'package:imgly_sdk/imgly_sdk.dart';
 import 'package:photo_editor_sdk/photo_editor_sdk.dart';
 import 'package:video_editor_sdk/video_editor_sdk.dart';
 

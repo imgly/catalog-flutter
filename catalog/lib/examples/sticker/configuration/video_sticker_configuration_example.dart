@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:catalog/models/code_example.dart';
 import 'package:imgly_sdk/imgly_sdk.dart';
 import 'package:video_editor_sdk/video_editor_sdk.dart';
@@ -29,8 +31,8 @@ class VideoStickerConfigurationExample extends CodeExample {
         // is enabled.
         // highlight-colors
         colors: ColorPalette(colors: [
-          NamedColor(Color([1, 1, 1, 1]), "White"),
-          NamedColor(Color([0, 0, 0, 1]), "Black"),
+          NamedColor(const Color.fromARGB(255, 255, 255, 255), "White"),
+          NamedColor(const Color.fromARGB(0, 0, 0, 255), "Black"),
         ]),
         // highlight-colors
 

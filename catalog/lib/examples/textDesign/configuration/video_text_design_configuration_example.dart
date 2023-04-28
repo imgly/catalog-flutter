@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:catalog/models/code_example.dart';
 import 'package:imgly_sdk/imgly_sdk.dart';
 import 'package:video_editor_sdk/video_editor_sdk.dart';
@@ -11,8 +13,8 @@ class VideoTextDesignConfigurationExample extends CodeExample {
         // For this example only a few colors are enabled.
         // highlight-color
         colors: ColorPalette(colors: [
-          NamedColor(Color('#ffffff'), "White"),
-          NamedColor(Color('#000000'), "Black")
+          NamedColor(const Color.fromARGB(255, 255, 255, 255), "White"),
+          NamedColor(const Color.fromARGB(0, 0, 0, 255), "Black"),
         ]),
         // highlight-color
         // By default the editor has all available overlay actions for this tool

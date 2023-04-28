@@ -180,10 +180,10 @@ packages:
     dependency: transitive
     description:
       name: imgly_sdk
-      sha256: "3a0a7d4cdc2c8e89d8a9c3680e6808c556c196cb55f89f561b2f6173d8cf5f2b"
+      sha256: "18e3a7c6b5a842d849317f116e9870ce670a55453a5629fa2459d68c8e5f0305"
       url: "https://pub.dev"
     source: hosted
-    version: "2.9.0"
+    version: "3.0.0"
   js:
     dependency: transitive
     description:
@@ -292,10 +292,10 @@ packages:
     dependency: "direct main"
     description:
       name: photo_editor_sdk
-      sha256: "1ad7e5a21f5ec878de5fd64a0abf711e38be88cf55794a8fff304a3f523f6e07"
+      sha256: "39d9fed8602d5085214b236fb76c38090b864ef3fc80127727e95e96258af4e3"
       url: "https://pub.dev"
     source: hosted
-    version: "2.9.0"
+    version: "3.0.0"
   platform:
     dependency: transitive
     description:
@@ -393,10 +393,10 @@ packages:
     dependency: "direct main"
     description:
       name: video_editor_sdk
-      sha256: "1575b6bced067620b04cefc2cdca81a08d5b7305cdba4902edb0f28342607af7"
+      sha256: "5475e777ed95b6b89a377ff83c5ba28fbefcaac196f1e9cbc6aef216e6d82233"
       url: "https://pub.dev"
     source: hosted
-    version: "2.9.0"
+    version: "3.0.0"
   win32:
     dependency: transitive
     description:

@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:catalog/models/code_example.dart';
 import 'package:imgly_sdk/imgly_sdk.dart';
 import 'package:photo_editor_sdk/photo_editor_sdk.dart';
@@ -17,7 +19,7 @@ class PhotoBrushConfigurationExample extends CodeExample {
         // `#ffffff`. For this example the default color
         // is set to `#000000`.
         // highlight-color
-        defaultColor: Color("#000000"),
+        defaultColor: const Color(0xFF000000),
         // highlight-color
 
         // By default the default brush size is set to 5% of the
@@ -33,9 +35,9 @@ class PhotoBrushConfigurationExample extends CodeExample {
         // For this example only a small selection of colors is enabled.
         // highlight-colors
         colors: ColorPalette(colors: [
-          NamedColor(Color("#ffffff"), "White"),
-          NamedColor(Color("#000000"), "Black"),
-          NamedColor(Color("ff0000"), "Red")
+          NamedColor(const Color(0xFFFFFFFF), "White"),
+          NamedColor(const Color(0xFF000000), "Black"),
+          NamedColor(const Color(0xFFFF0000), "Red")
         ])
         // highlight-colors
         );

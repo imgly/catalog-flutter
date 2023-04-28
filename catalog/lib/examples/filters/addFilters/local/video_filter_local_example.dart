@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:catalog/models/code_example.dart';
 import 'package:imgly_sdk/imgly_sdk.dart';
 import 'package:video_editor_sdk/video_editor_sdk.dart';
@@ -19,7 +21,7 @@ class VideoFilterLocalExample extends CodeExample {
 
             // A custom DuoTone Filter.
             DuoToneFilter("custom_duotone_filter", "Custom DuoTone",
-                Color("#002259"), Color("#bd66ff"))
+                const Color(0xFF002259), const Color(0xFFBD66FF))
             // highlight-custom-filter
           ]),
       // highlight-category
