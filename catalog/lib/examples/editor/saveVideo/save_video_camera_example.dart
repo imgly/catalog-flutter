@@ -1,6 +1,6 @@
 import 'package:catalog/models/code_example.dart';
 // highlight-import
-import 'package:gallery_saver/gallery_saver.dart';
+import 'package:gal/gal.dart';
 // highlight-import
 import 'package:video_editor_sdk/video_editor_sdk.dart';
 
@@ -18,7 +18,7 @@ class SaveVideoCameraRollExample extends CodeExample {
         // The user exported a new video successfully and the newly generated video is located at `result.video`.
         // For this example, the video is saved to the camera roll.
         // highlight-result
-        await GallerySaver.saveVideo(Uri.parse(result.video).path);
+        await Gal.putVideo(Uri.parse(result.video).path);
         // highlight-result
       } else {
         // The user tapped on the cancel button within the editor.

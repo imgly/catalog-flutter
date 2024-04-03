@@ -16,9 +16,10 @@ class VideoAudioRemoteExample extends CodeExample {
     final response = await request.close();
     final bytes = await consolidateHttpClientResponseBytes(response);
     final outputDirectory = await getTemporaryDirectory();
-    final outputFile = File("${outputDirectory.path}/$filename");
+    final outputFile =
+        File.fromUri(Uri.parse("${outputDirectory.uri}/$filename"));
     await outputFile.writeAsBytes(bytes);
-    return outputFile.path;
+    return outputFile.uri.toString();
   }
   // highlight-download
 

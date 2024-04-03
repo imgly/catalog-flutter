@@ -28,7 +28,7 @@ apply plugin: 'ly.img.android.sdk'
 apply plugin: 'kotlin-android'
 
 // Comment out the modules you don't need, to save size.
-imglyConfig {
+IMGLY.configure {
     modules {
         include 'ui:text'
         include 'ui:focus'
@@ -65,6 +65,7 @@ imglyConfig {
 }
 
 android {
+    namespace "ly.img.catalog_ui.flutter"
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
