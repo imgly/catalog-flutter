@@ -1,16 +1,7 @@
 buildscript {
-    ext.kotlin_version = '1.7.21'
     repositories {
         google()
         mavenCentral()
-        maven { url "https://artifactory.img.ly/artifactory/imgly" }
-    }
-
-    dependencies {
-        classpath 'com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin:1.7.21-1.0.8'
-        classpath 'com.android.tools.build:gradle:8.1.2'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath 'ly.img.android.sdk:plugin:10.9.0'
     }
 }
 
@@ -18,7 +9,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://artifactory.img.ly/artifactory/imgly' }
+        maven { url "https://artifactory.img.ly/artifactory/imgly" }
     }
 }
 
