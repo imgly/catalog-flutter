@@ -11,6 +11,24 @@ allprojects {
         mavenCentral()
         maven { url 'https://artifactory.img.ly/artifactory/imgly' }
     }
+    
+    // Ensure all subprojects use the same JVM toolchain
+    afterEvaluate { project ->
+        if (project.hasProperty('android')) {
+            project.android {
+                compileOptions {
+                    sourceCompatibility JavaVersion.VERSION_17
+                    targetCompatibility JavaVersion.VERSION_17
+                }
+            }
+        }
+        
+        if (project.hasProperty('kotlin')) {
+            project.kotlin {
+                jvmToolchain(17)
+            }
+        }
+    }
 }
 
 rootProject.buildDir = '../build'
